@@ -30,7 +30,7 @@ PODS:
   - Crashlytics (3.8.5):
     - Fabric (~> 1.6.3)
   - Expecta (1.0.6)
-  - Fabric (1.6.12)
+  - Fabric (1.6.13)
   - FLAnimatedImage (1.0.12)
   - FormatterKit/Resources (1.8.2)
   - FormatterKit/TimeIntervalFormatter (1.8.2):
@@ -131,7 +131,7 @@ DEPENDENCIES:
   - WordPress-Aztec-iOS (from `https://github.com/wordpress-mobile/AztecEditor-iOS.git`, commit `76e94b6bd8358a4ec4d60a568e4dd02895315a61`)
   - WordPress-iOS-Editor (= 1.9.4)
   - WordPressComKit (from `https://github.com/Automattic/WordPressComKit.git`, tag `0.0.6`)
-  - WPMediaPicker (= 0.20)
+  - WPMediaPicker (from `https://github.com/wordpress-mobile/MediaPicker-iOS.git`, branch `issue/7754-content-inset-fix`)
   - wpxmlrpc (= 0.8.3)
 
 EXTERNAL SOURCES:
@@ -144,6 +144,9 @@ EXTERNAL SOURCES:
   WordPressComKit:
     :git: https://github.com/Automattic/WordPressComKit.git
     :tag: 0.0.6
+  WPMediaPicker:
+    :branch: issue/7754-content-inset-fix
+    :git: https://github.com/wordpress-mobile/MediaPicker-iOS.git
 
 CHECKOUT OPTIONS:
   Automattic-Tracks-iOS:
@@ -155,6 +158,9 @@ CHECKOUT OPTIONS:
   WordPressComKit:
     :git: https://github.com/Automattic/WordPressComKit.git
     :tag: 0.0.6
+  WPMediaPicker:
+    :commit: a20897b6d0e4b5c6cdbcf41698b5aec1873fa0a1
+    :git: https://github.com/wordpress-mobile/MediaPicker-iOS.git
 
 SPEC CHECKSUMS:
   1PasswordExtension: e775a29310c65851e5a6cec1afc349ab4e334e47
@@ -165,7 +171,7 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
   Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
-  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  Fabric: 2fb5676bc811af011a04513451f463dac6803206
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   FormatterKit: 4b8f29acc9b872d5d12a63efb560661e8f2e1b98
   Gridicons: e661b35e7d4f0ca79e8b2a2072c0081b91b5d1e0
@@ -186,9 +192,9 @@ SPEC CHECKSUMS:
   WordPress-Aztec-iOS: c47f4c93a01944a603ddcde02811cfb3227d0a1b
   WordPress-iOS-Editor: 3792b28f6b139150b37363e450d3c8769137eaca
   WordPressComKit: 119ae1d20bfb090769274732b51e7bd186a96f7e
-  WPMediaPicker: 19662ba400d5ad7e95c56e581a36f4287b558305
+  WPMediaPicker: 09ce293dbe3b77897c3db342435384946f9c9ff8
   wpxmlrpc: bfc572f62ce7ee897f6f38b098d2ba08732ecef4
 
-PODFILE CHECKSUM: 641f928c6f8cfab62ae2235961842d08a867f353
+PODFILE CHECKSUM: d0cf2b50455afac030fbcbd297a13f7fcc477376
 
 COCOAPODS: 1.3.1
